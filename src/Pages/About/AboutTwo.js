@@ -9,6 +9,8 @@ import PageTitle from "../../Share/PageTitle";
 
 const AboutTwo = () => {
   const { local, serviceArray } = UseData();
+  const aboutMe1 = 'Born and raised in the Bronx, New York, I have over 13 years in software development and information technology experience.'
+  const aboutMe2 = 'Extensive experience across various domains including fashion, publishing, biometric identification, and education software. \n Committed to empowering software development teams with Agile best practices and mastering additional programming languages and frameworks for future projects.'
 
   return (
     <section>
@@ -30,15 +32,11 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                      Born and raised in the Bronx, New York, I have over 13 years in software development and information technology experience.
                     </p>
-                    <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                    <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910"> 
+                      Extensive experience across various domains including fashion, publishing, biometric identification, and education software. 
+                      Committed to empowering software development teams with Agile best practices and mastering additional programming languages and frameworks for future projects.
                     </p>
                   </div>
                 </div>
@@ -48,15 +46,11 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="text-gray-lite  dark:text-color-910 leading-7">
-                    I'm Creative Director and UI/UX Designer from Sydney,
-                    Australia, working in web development and print media. I
-                    enjoy turning complex problems into simple, beautiful and
-                    intuitive designs.
+                    Born and raised in the Bronx, New York, I have over 13 years in software development and information technology experience.
                   </p>
                   <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                    My aim is to bring across your message and identity in the
-                    most creative way. I created web design for many famous
-                    brand companies.
+                    Extensive experience across various domains including fashion, publishing, biometric identification, and education software. 
+                    Committed to empowering software development teams with Agile best practices and mastering additional programming languages and frameworks for future projects.
                   </p>
                 </div>
               </div>

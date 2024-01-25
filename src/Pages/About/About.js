@@ -46,15 +46,11 @@ const About = () => {
                       Who am i?
                     </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                      Born and raised in the Bronx, New York, I have over 13 years in software development and information technology experience.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      Extensive experience across various domains including fashion, publishing, biometric identification, and education software. 
+                      Committed to empowering software development teams with Agile best practices and mastering additional programming languages and frameworks for future projects.
                     </p>
                   </div>
 
@@ -75,9 +71,9 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="tel:+1234567890"
+                              href="tel:+19175536851"
                             >
-                              +123 456 7890
+                              +1917 553 6851
                             </a>
                           </h6>
                         </div>
@@ -91,7 +87,7 @@ const About = () => {
                             Location
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            Hong kong china
+                            Westchester County, NY
                           </h6>
                         </div>
                       </div>
@@ -106,9 +102,9 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="mailto:ibthemes21@gmail.com"
+                              href="mailto:mnunez903@gmail.com"
                             >
-                              example@mail.com
+                              mnunez903@gmail.com
                             </a>
                           </h6>
                         </div>
@@ -122,7 +118,7 @@ const About = () => {
                             Birthday
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            May 27, 1990
+                            September 3rd, 1986
                           </h6>
                         </div>
                       </div>

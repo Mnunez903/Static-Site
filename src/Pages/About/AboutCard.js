@@ -6,7 +6,7 @@ const AboutCard = ({ item, local }) => {
       style={{ background: `${local === "dark" ? "transparent" : item?.bg}` }}
       className="about-box dark:bg-transparent"
     >
-      <img className="w-10 h-10 object-contain  block" src={item.icon} alt="" />
+      <img className="w-10 h-10 object-contain block stroke-[#00ff00]" src={item.icon} alt="" />
 
       <div className="space-y-2 break-all">
         <h3 className="dark:text-white text-xl font-semibold">{item?.title}</h3>

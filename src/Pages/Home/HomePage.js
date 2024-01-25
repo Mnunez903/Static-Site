@@ -1,7 +1,7 @@
 import React from "react";
 import userImage from "../../assets/images/about/avatar.png";
 import downloadIcon from "../../assets/images/download.png";
-import cvFile from "../../assets/images/cv.webp";
+import cvFile from "../../assets/files/mn-resume-2024.pdf";
 import {
   FaFacebookF,
   FaTwitter,
@@ -34,7 +34,7 @@ const HomePage = () => {
         {/* Social information start */}
         <div className="flex space-x-3">
           <a
-            href="https://www.facebook.com/GoogleMike/"
+          href="https://www.facebook.com/GoogleMike/"
             target="_blank"
             rel="noopener noreferrer"
           >

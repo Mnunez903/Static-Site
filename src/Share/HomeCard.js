@@ -1,10 +1,11 @@
 import React from "react";
-import cvFile from "../assets/images/cv.webp";
+import cvFile from "../assets/files/mn-resume-2024.pdf";
 import {
   FaCalendarAlt,
   FaDribbble,
   FaEnvelopeOpenText,
   FaFacebookF,
+  FaGithub,
   FaLinkedinIn,
   FaMapMarkerAlt,
   FaMobileAlt,
@@ -25,28 +26,18 @@ const HomeCard = () => {
         {/* Social card */}
         <div className="pt-[100px] pb-8">
           <h1 className="mt-6 mb-1 text-5xl font-semibold  dark:text-white">
-            Monalisa Ashley
+            Michael Julio Nuñez
           </h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]  ">
-            Ui/Ux Designer
+            Lead Software Developer
           </h3>
 
           {/* Social Links */}
 
           <div className="flex justify-center space-x-3">
-            {/* facebook link add here */}
-            <a
-              href="https://www.facebook.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#1773EA]">
-                <FaFacebookF />
-              </span>
-            </a>
             {/* twitter link add here */}
             <a
-              href="https://twitter.com/"
+              href="https://twitter.com/googlemike"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -54,19 +45,9 @@ const HomeCard = () => {
                 <FaTwitter />
               </span>
             </a>
-            {/* drop link add here */}
-            <a
-              href="https://dribbble.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="socialbtn text-[#e14a84] ">
-                <FaDribbble />
-              </span>
-            </a>
             {/* linkedin link add here */}
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/michaeljnunez"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -74,6 +55,26 @@ const HomeCard = () => {
                 <FaLinkedinIn />
               </span>
             </a>
+            {/* facebook link add here */}
+            <a
+              href="https://www.facebook.com/GoogleMike/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span className="socialbtn text-[#1773EA]">
+                <FaFacebookF />
+              </span>
+            </a>
+          {/* facebook link add here */}
+          <a
+            href="https://www.github.com/mnunez903/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="socialbtn text-[#1773EA]">
+              <FaGithub />
+            </span>
+          </a>
           </div>
 
           {/* personal information */}
@@ -90,9 +91,9 @@ const HomeCard = () => {
                   {" "}
                   <a
                     className="hover:text-[#FA5252] duration-300 transition"
-                    href="tel:+1234567890"
+                    href="tel:+19175536851"
                   >
-                    +123 456 7890
+                    +1917 553 6851
                   </a>
                 </p>
               </div>
@@ -110,9 +111,9 @@ const HomeCard = () => {
                   {" "}
                   <a
                     className="hover:text-[#FA5252] duration-300 transition"
-                    href="mailto:ibthemes21@gmail.com"
+                    href="mailto:mnunez903@gmail.com"
                   >
-                    example@mail.com
+                    mnunez903@gmail.com
                   </a>
                 </p>
               </div>
@@ -126,7 +127,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Location
                 </p>
-                <p className="dark:text-white break-all">Hong kong china</p>
+                <p className="dark:text-white break-all">Westchester County, NY</p>
               </div>
             </div>
 
@@ -138,7 +139,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Birthday
                 </p>
-                <p className="dark:text-white break-all">May 27, 1990</p>
+                <p className="dark:text-white break-all">September 3rd, 1986</p>
               </div>
             </div>
           </div>
