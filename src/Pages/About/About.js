@@ -87,7 +87,7 @@ const About = () => {
                             Location
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            Westchester County, NY
+                            Lower Westchester County, NY
                           </h6>
                         </div>
                       </div>

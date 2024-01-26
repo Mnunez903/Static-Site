@@ -29,7 +29,7 @@ const HomeTwo = () => {
             {/* website logo */}
 
             <Link to="/">
-              <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
+              <img className="h-[40px] lg:h-[60px]" src={logo} alt="The word 'Nuñez' fading from bright orange to a darker orange as a logo" />
             </Link>
             <div className="flex items-center">
               {/* dark and light mode button */}

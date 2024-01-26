@@ -477,25 +477,25 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2021-2023",
-      title: "Ph.D in Horriblensess ",
-      place: "ABC University, Los Angeles, CA",
+      date: "2008-2010",
+      title: "Bachelors Degree in Computer Systems Technology",
+      place: "CUNY New York City College of Technology, Brooklyn, NY",
       bg: "#FFF4F4",
     },
 
     {
       id: 2,
-      date: "2019 - Present",
-      title: "Sr. Software Tester",
-      place: "Google Inc.",
+      date: "2005-2008",
+      title: "Associates Degree in Computer Science",
+      place: "CUNY New York City College of Technology, Brooklyn, NY",
       bg: "#FFF1FB",
     },
 
     {
       id: 3,
-      date: "2021",
-      title: "Best Developer ",
-      place: "University Of Melbourne, NA",
+      date: "2000-2004",
+      title: "High School Diploma, Instrumental Music",
+      place: "Fiorello H Laguardia High School of Music & Art and Performing Arts, New York, NY",
       bg: "#FFF4F4",
     },
   ];
@@ -503,25 +503,25 @@ const AllData = () => {
   const experiencesArray = [
     {
       id: 1,
-      date: "2017-2021",
-      title: "Computer Science",
-      place: "Imperialize Technical Institute",
+      date: "2015-2024",
+      title: "Lead Software Developer Consultant",
+      place: "Stride",
       bg: "#EEF5FA",
     },
 
     {
       id: 2,
-      date: "2015-2017",
-      title: "Cr. Web Developer",
-      place: "ib-themes ltd.",
+      date: "2013-2015",
+      title: "Software Developer Consultant",
+      place: "Cyrus Innovations",
       bg: "#F2F4FF",
     },
 
     {
       id: 3,
-      date: "2008",
-      title: "Best Writter",
-      place: "Online Typodev Soluation Ltd.",
+      date: "2011-2013",
+      title: "Software Developer",
+      place: "FDM Group.",
       bg: "#EEF5FA",
     },
   ];
@@ -529,26 +529,18 @@ const AllData = () => {
   const awardsArray = [
     {
       id: 1,
-      date: "2015-2017",
-      title: "  Graphic Designer",
-      place: "Web Graphy, Los Angeles, CA",
+      date: "2019",
+      title: "Over 500k unique listens",
+      place: "The Rabbit Hole -- The Definitive Developers Podcast",
       bg: "#FCF4FF",
     },
 
     {
       id: 2,
-      date: "2014 - 2015",
-      title: "Jr. Web Developer",
-      place: "Creative Gigs.",
+      date: "2016",
+      title: "Stridee award -- Core Value - Respect",
+      place: "Stride",
       bg: "#FCF9F2",
-    },
-
-    {
-      id: 3,
-      date: "2015-2017",
-      title: "Best Freelancer",
-      place: "Fiver & Upwork Level 2 & Top Rated",
-      bg: "#FCF4FF",
     },
   ];
 
@@ -602,7 +594,7 @@ const AllData = () => {
       id: "03",
       icon: iconMap,
       title: "Address ",
-      item1: "Lower East Westchester County",
+      item1: "Lower Westchester County",
       item2: "New York, USA",
       bg: "#F2F4FF",
     },

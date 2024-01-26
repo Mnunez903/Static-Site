@@ -51,7 +51,7 @@ const HomePage = () => {
             </span>
           </a>
           <a
-            href="https://www.linkedin.com/michaeljnunez"
+            href="https://www.linkedin.com/in/michaeljnunez"
             target="_blank"
             rel="noopener noreferrer"
           >

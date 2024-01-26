@@ -47,7 +47,7 @@ const HomeCard = () => {
             </a>
             {/* linkedin link add here */}
             <a
-              href="https://www.linkedin.com/michaeljnunez"
+              href="https://www.linkedin.com/in/michaeljnunez"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -127,7 +127,7 @@ const HomeCard = () => {
                 <p className="text-xs text-[#44566C] dark:text-[#A6A6A6]">
                   Location
                 </p>
-                <p className="dark:text-white break-all">Westchester County, NY</p>
+                <p className="dark:text-white break-all">Lower Westchester County, NY</p>
               </div>
             </div>
 
