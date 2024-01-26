@@ -32,14 +32,22 @@ const Resume = () => {
             <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-6">
-                  Working Skills
+                  Soft Skills
                 </h4>
+                <div className="flex gap-x-3 gap-y-3 md:gap-y-6 md:gap-x-4 flex-wrap">
+                  <button className="resume-btn">Agile</button>
+                  <button className="resume-btn">Extreme Programming</button>
+                  <button className="resume-btn">Pair Programming</button>
+                  <button className="resume-btn">Test Driven Development</button>
+                  <button className="resume-btn">Continous Improvement</button>
+                  <button className="resume-btn">Continuous Delivery</button>
+                </div>
 
                 {/* experience percent items */}
 
-                {lineArray.map((item, i) => (
+                {/* {lineArray.map((item, i) => (
                   <LineItem item={item} key={i} />
-                ))}
+                ))} */}
               </div>
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-8">
@@ -49,17 +57,13 @@ const Resume = () => {
                 {/* Knowledges items */}
 
                 <div className="flex gap-x-3 gap-y-3 md:gap-y-6 md:gap-x-4 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">Ruby</button>
+                  <button className="resume-btn">Rails</button>
+                  <button className="resume-btn">Javascript</button>
+                  <button className="resume-btn">TypeScript</button>
+                  <button className="resume-btn">NodeJS</button>
+                  <button className="resume-btn">ReactJS</button>
+                  <button className="resume-btn">Java</button>
                 </div>
               </div>
             </div>

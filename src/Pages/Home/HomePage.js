@@ -5,7 +5,6 @@ import cvFile from "../../assets/files/mn-resume-2024.pdf";
 import {
   FaFacebookF,
   FaTwitter,
-  FaDribbble,
   FaLinkedinIn,
 } from "react-icons/fa";
 import PageTitle from "../../Share/PageTitle";

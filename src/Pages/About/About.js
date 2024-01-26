@@ -19,7 +19,7 @@ const About = () => {
   const { local, serviceArray } = UseData();
   return (
     <>
-      <PageTitle title="About"></PageTitle>
+      <PageTitle title="About Me"></PageTitle>
       {/* End pagetitle */}
 
       <section>
