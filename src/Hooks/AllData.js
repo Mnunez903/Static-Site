@@ -40,6 +40,8 @@ import img3 from "../assets/images/slider/brand-3.png";
 import img4 from "../assets/images/slider/brand-4.png";
 import img5 from "../assets/images/slider/brand-5.png";
 import img6 from "../assets/images/slider/brand-6.png";
+import img7 from "../assets/images/slider/brand-7.png";
+import img8 from "../assets/images/slider/brand-8.png";
 //  icon use as img here
 import icon from "../assets/images/icons/icon-1.svg";
 import icon1 from "../assets/images/icons/icon-2.svg";
@@ -413,12 +415,16 @@ const AllData = () => {
     img4,
     img5,
     img6,
+    img7,
+    img8,
     img1,
     img2,
     img3,
     img4,
     img5,
     img6,
+    img7,
+    img8,
   ];
 
   // serviceArray items for about page
