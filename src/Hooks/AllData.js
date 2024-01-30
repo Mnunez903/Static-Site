@@ -147,10 +147,10 @@ const AllData = () => {
     {
       id: "1",
       tag: "UI/UX",
-      title: "Chul urina",
+      title: "Vista Ventures!",
       img: work1,
       imgSmall: workSmall1,
-      bg: "#FFF0F0",
+      bg: "#f8f5e8",
       client: "Envato",
       langages: "Photoshop, Figma",
       link: "https://www.envato.com",
