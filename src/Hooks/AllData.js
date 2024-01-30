@@ -433,6 +433,13 @@ const AllData = () => {
       link: "/home/works",
       icon: <FiCodesandbox />,
     },
+    // {
+    //   id: "04",
+    //   name: "Blogs",
+    //   link: "/home/blogs",
+    //   icon: <FaBlogger />,
+    // },
+
     {
       id: "05",
       name: "Contact",
@@ -461,12 +468,12 @@ const AllData = () => {
       link: "/homeTwo/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "Blogs",
-      link: "/homeTwo/blogs",
-      icon: <FaBlogger />,
-    },
+    // {
+    //   id: "04",
+    //   name: "Blogs",
+    //   link: "/homeTwo/blogs",
+    //   icon: <FaBlogger />,
+    // },
     {
       id: "05",
       name: "Contact",
