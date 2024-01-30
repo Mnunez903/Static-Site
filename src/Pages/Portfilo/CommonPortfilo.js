@@ -53,7 +53,7 @@ const CommonPortfilo = ({ condition, items }) => {
               <h2 className="after-effect  after:left-48 mt-12  lg:mt-0">
                 Portfolio
               </h2>
-
+              <p className="text-color-800 italic">Note: Some of these logos are not real due to NDA. Logos were created using ChatGPT.</p>
               {/* Portfilo fillter tab start */}
 
               <ul

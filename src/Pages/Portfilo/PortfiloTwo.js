@@ -4,7 +4,7 @@ import CommonPortfilo from "./CommonPortfilo";
 const PortfiloTwo = () => {
   return (
     <div>
-      <CommonPortfilo items={8} condition={false} />
+      <CommonPortfilo items={13} condition={false} />
     </div>
   );
 };

@@ -9,6 +9,10 @@ import work6 from "../assets/images/work_images/6.jpg";
 import work7 from "../assets/images/work_images/7.jpg";
 import work8 from "../assets/images/work_images/8.jpg";
 import work9 from "../assets/images/work_images/9.jpg";
+import work10 from "../assets/images/work_images/10.jpg";
+import work11 from "../assets/images/work_images/11.jpg";
+import work12 from "../assets/images/work_images/12.jpg";
+import work13 from "../assets/images/work_images/13.jpg";
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.jpg";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
@@ -19,6 +23,10 @@ import workSmall6 from "../assets/images/work_images/small/6.jpg";
 import workSmall7 from "../assets/images/work_images/small/7.jpg";
 import workSmall8 from "../assets/images/work_images/small/8.jpg";
 import workSmall9 from "../assets/images/work_images/small/9.jpg";
+import workSmall10 from "../assets/images/work_images/small/10.jpg";
+import workSmall11 from "../assets/images/work_images/small/11.jpg";
+import workSmall12 from "../assets/images/work_images/small/12.jpg";
+import workSmall13 from "../assets/images/work_images/small/13.jpg";
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -262,6 +270,62 @@ const AllData = () => {
       title: "Chul urina",
       img: work9,
       imgSmall: workSmall9,
+      bg: "#FCF4FF",
+      client: "Feepik",
+      langages: "Figma",
+      link: "https://www.freepik.com/free-photos-vectors/market-logo",
+      linkText: "www.freepik.com",
+      description:
+        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+    },
+    {
+      id: "10",
+      tag: "Logo",
+      title: "Chul urina",
+      img: work10,
+      imgSmall: workSmall10,
+      bg: "#FCF4FF",
+      client: "Feepik",
+      langages: "Figma",
+      link: "https://www.freepik.com/free-photos-vectors/market-logo",
+      linkText: "www.freepik.com",
+      description:
+        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+    },
+    {
+      id: "11",
+      tag: "Logo",
+      title: "Chul urina",
+      img: work11,
+      imgSmall: workSmall11,
+      bg: "#FCF4FF",
+      client: "Feepik",
+      langages: "Figma",
+      link: "https://www.freepik.com/free-photos-vectors/market-logo",
+      linkText: "www.freepik.com",
+      description:
+        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+    },
+    {
+      id: "12",
+      tag: "Logo",
+      title: "Chul urina",
+      img: work12,
+      imgSmall: workSmall12,
+      bg: "#FCF4FF",
+      client: "Feepik",
+      langages: "Figma",
+      link: "https://www.freepik.com/free-photos-vectors/market-logo",
+      linkText: "www.freepik.com",
+      description:
+        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+    },
+    {
+      id: "13",
+      tag: "Logo",
+      title: "Chul urina",
+      img: work13,
+      imgSmall: workSmall13,
       bg: "#FCF4FF",
       client: "Feepik",
       langages: "Figma",
