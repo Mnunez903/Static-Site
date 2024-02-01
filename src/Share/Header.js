@@ -31,14 +31,14 @@ const Header = () => {
                 {!check ? (
                   <span
                     onClick={() => handle("dark")}
-                    className="bg-white w-[40px]  opacity-100 visible flex lg:opacity-0 lg:hidden  h-[40px]  rounded-full  justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  ml-4"
+                    className="bg-white w-[40px]  opacity-100 visible flex lg:opacity-0 lg:hidden  h-[40px]  rounded-full  justify-center items-center hover:bg-[#fca242] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  ml-4"
                   >
                     <FiMoon className="  text-3xl" />
                   </span>
                 ) : (
                   <span
                     onClick={() => handle("light")}
-                    className="bg-[#4D4D4D] w-[40px] h-[40px] rounded-full  opacity-100 visible flex lg:opacity-0 lg:hidden justify-center items-center hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer  ml-4"
+                    className="bg-[#4D4D4D] w-[40px] h-[40px] rounded-full  opacity-100 visible flex lg:opacity-0 lg:hidden justify-center items-center hover:bg-[#fca242] transition-all duration-300 ease-in-out cursor-pointer  ml-4"
                   >
                     <FiSun className="text-white text-3xl" />
                   </span>
@@ -49,14 +49,14 @@ const Header = () => {
                 {!menuOpen ? (
                   <span
                     onClick={() => setMenuOpen(!menuOpen)}
-                    className="lg:opacity-0 lg:invisible visible opacity-100  bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 "
+                    className="lg:opacity-0 lg:invisible visible opacity-100  bg-[#fca242] w-[40px] h-[40px] rounded-full flex justify-center cursor-pointer items-center text-white dark:text-white text-3xl ml-3 "
                   >
                     <AiOutlineMenu />
                   </span>
                 ) : (
                   <span
                     onClick={() => setMenuOpen(!menuOpen)}
-                    className="lg:opacity-0 cursor-pointer lg:invisible visible opacity-100  bg-[#ef4060] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white text-3xl ml-3 "
+                    className="lg:opacity-0 cursor-pointer lg:invisible visible opacity-100  bg-[#fca242] w-[40px] h-[40px] rounded-full flex justify-center items-center text-white text-3xl ml-3 "
                   >
                     <AiOutlineClose />
                   </span>
@@ -88,21 +88,21 @@ const Header = () => {
                     key={item.id}
                     activeClassName={`${
                       menuOpen
-                        ? " text-[#FA5252] dark:text-[#FA5252] "
-                        : " text-white  dark:text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] "
+                        ? " text-[#ffb16d] dark:text-[#ffb16d] "
+                        : " text-white  dark:text-white bg-gradient-to-r from-[#ffb16d] to-[#dd8424]"
                     }`}
                     inactiveClassName={`${
                       menuOpen
-                        ? " dark:hover:text-[#FA5252]"
-                        : "  dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] dark:text-[#A6A6A6] "
+                        ? " dark:hover:text-[#ffb16d]"
+                        : "  dark:hover:text-white dark:bg-[#212425] hover:text-white   hover:bg-gradient-to-r from-[#ffb16d] to-[#dd8424] dark:text-[#A6A6A6] "
                     }  transition-all duration-300 ease-in-out `}
                     className={`${
                       a.pathname === "/home" && item.id === "01"
-                        ? "text-white linked dark:text-white bg-gradient-to-r from-[#FA5252] to-[#DD2476] "
+                        ? "text-white linked dark:text-white bg-gradient-to-r from-[#ffb16d] to-[#dd8424]"
                         : " "
                     } ${
                       menuOpen
-                        ? " pl-4 dark:text-white    hover:text-[#FA5252] dark:hover:text-[#FA5252]  "
+                        ? " pl-4 dark:text-white    hover:text-[#ffb16d] dark:hover:text-[#ffb16d]  "
                         : " rounded-md  cursor-pointer    font-poppins  bg-white text-gray-lite  "
                     }  font-medium mx-2.5 flex text-xtiny py-2.5 md:px-4 xl:px-5 items-center  transition-all duration-300 ease-in-out `}
                     to={item?.link}
@@ -118,14 +118,14 @@ const Header = () => {
               {!check ? (
                 <span
                   onClick={() => handle("dark")}
-                  className="bg-white w-[40px] hover:text-white hidden  h-[40px] rounded-full lg:flex justify-center items-center text-black hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2 "
+                  className="bg-white w-[40px] hover:text-white hidden  h-[40px] rounded-full lg:flex justify-center items-center text-black hover:bg-[#fca242] transition-all duration-300 ease-in-out cursor-pointer ml-2 "
                 >
                   <FiMoon className="  text-3xl" />
                 </span>
               ) : (
                 <span
                   onClick={() => handle("light")}
-                  className="bg-[#4D4D4D] w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#ef4060] transition-all duration-300 ease-in-out cursor-pointer ml-2"
+                  className="bg-[#4D4D4D] w-[40px] h-[40px] hidden  rounded-full lg:flex justify-center items-center   hover:bg-[#fca242] transition-all duration-300 ease-in-out cursor-pointer ml-2"
                 >
                   <FiSun className="text-white text-3xl" />
                 </span>

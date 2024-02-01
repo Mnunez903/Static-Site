@@ -2,7 +2,6 @@ import React from "react";
 import cvFile from "../assets/files/mn-resume-2024.pdf";
 import {
   FaCalendarAlt,
-  FaDribbble,
   FaEnvelopeOpenText,
   FaFacebookF,
   FaGithub,
@@ -41,7 +40,7 @@ const HomeCard = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#1C9CEA]">
+              <span className="socialbtn text-[#ffb16d]">
                 <FaTwitter />
               </span>
             </a>
@@ -51,7 +50,7 @@ const HomeCard = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#0072b1]">
+              <span className="socialbtn text-[#ffb16d]">
                 <FaLinkedinIn />
               </span>
             </a>
@@ -61,7 +60,7 @@ const HomeCard = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span className="socialbtn text-[#1773EA]">
+              <span className="socialbtn text-[#ffb16d]">
                 <FaFacebookF />
               </span>
             </a>
@@ -71,7 +70,7 @@ const HomeCard = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="socialbtn text-[#1773EA]">
+            <span className="socialbtn text-[#ffb16d]">
               <FaGithub />
             </span>
           </a>
@@ -90,7 +89,7 @@ const HomeCard = () => {
                 <p className="dark:text-white break-all">
                   {" "}
                   <a
-                    className="hover:text-[#FA5252] duration-300 transition"
+                    className="hover:text-[#ffb16d] duration-300 transition"
                     href="tel:+19175536851"
                   >
                     +1917 553 6851
@@ -110,7 +109,7 @@ const HomeCard = () => {
                 <p className="dark:text-white break-all">
                   {" "}
                   <a
-                    className="hover:text-[#FA5252] duration-300 transition"
+                    className="hover:text-[#ffb16d] duration-300 transition"
                     href="mailto:mnunez903@gmail.com"
                   >
                     mnunez903@gmail.com
@@ -147,7 +146,7 @@ const HomeCard = () => {
           <a
             href={cvFile}
             download
-            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
+            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#ffb16d] to-[#dd8424] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#dd8424] to-[#ffb16d] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
             <img src={downloadIcon} alt="icon" className="mr-2" />
             Download CV

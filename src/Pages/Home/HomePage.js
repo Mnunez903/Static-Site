@@ -6,6 +6,7 @@ import {
   FaFacebookF,
   FaTwitter,
   FaLinkedinIn,
+  FaGithub,
 } from "react-icons/fa";
 import PageTitle from "../../Share/PageTitle";
 
@@ -37,7 +38,7 @@ const HomePage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="socialbtn text-[#1773EA]">
+            <span className="socialbtn text-[#ffb16d]">
               <FaFacebookF />
             </span>
           </a>
@@ -46,7 +47,7 @@ const HomePage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="socialbtn text-[#1C9CEA]">
+            <span className="socialbtn text-[#ffb16d]">
               <FaTwitter />
             </span>
           </a>
@@ -55,8 +56,17 @@ const HomePage = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <span className="socialbtn text-[#0072b1]">
+            <span className="socialbtn text-[#ffb16d]">
               <FaLinkedinIn />
+            </span>
+          </a>
+          <a
+            href="https://www.github.com/mnunez903"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <span className="socialbtn text-[#ffb16d]">
+              <FaGithub />
             </span>
           </a>
         </div>
@@ -66,7 +76,7 @@ const HomePage = () => {
         <a
           href={cvFile}
           download
-          className="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
+          className="flex items-center bg-gradient-to-r from-[#ffb16d] to-[#dd8424] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#dd8424] to-[#ffb16d] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
         >
           <img src={downloadIcon} alt="icon" className="mr-2" />
           Download CV

@@ -53,7 +53,7 @@ const CommonPortfilo = ({ condition, items }) => {
               <h2 className="after-effect  after:left-48 mt-12  lg:mt-0">
                 Portfolio
               </h2>
-              <p className="text-color-800 italic">Note: Some of these logos are not real due to NDA. Logos were created using ChatGPT.</p>
+              <p className="text-[#d97409] italic">Note: Some of these logos are not real due to NDA. Logos were created using ChatGPT.</p>
               {/* Portfilo fillter tab start */}
 
               <ul
@@ -63,7 +63,7 @@ const CommonPortfilo = ({ condition, items }) => {
               >
                 <li
                   className={`${
-                    test === "All" ? "text-[#FA5252]" : "fillter-btn "
+                    test === "All" ? "text-[#d97409]" : "fillter-btn "
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("All")}
                 >
@@ -71,7 +71,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Video" ? "text-[#d97409]" : "fillter-btn"
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("Video")}
                 >
@@ -87,7 +87,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                    test === "Logo" ? "text-[#d97409]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
                   onClick={() => handleSearch("Logo")}
                 >
@@ -95,7 +95,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "UI/UX" ? "text-[#d97409]" : "fillter-btn"
                   }  `}
                   onClick={() => handleSearch("UI/UX")}
                 >
@@ -136,7 +136,7 @@ const CommonPortfilo = ({ condition, items }) => {
                   </span>
                   <h2
                     onClick={() => handleModle(item.id)}
-                    className="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#FA5252] dark:hover:text-[#FA5252] dark:text-white mt-2"
+                    className="font-medium cursor-pointer text-xl duration-300 transition hover:text-[#787777] dark:hover:text-[#d97409] dark:text-white mt-2"
                   >
                     {item?.title}
                   </h2>
