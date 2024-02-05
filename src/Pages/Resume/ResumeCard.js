@@ -11,7 +11,7 @@ const ResumeCard = () => {
     <>
       <div>
         <div className="flex items-center space-x-2 mb-4">
-          <div className="text-6xl text-[#F95054]">
+          <div className="text-6xl text-[#dd8424]">
             <MdOutlineBusinessCenter />
           </div>
           <h4 className="text-5xl dark:text-white font-medium"> Education </h4>
@@ -38,7 +38,7 @@ const ResumeCard = () => {
       <div>
         {/* <!-- Experience contain --> */}
         <div className="flex items-center space-x-2 mb-4">
-          <div className="text-6xl text-[#F95054]">
+          <div className="text-6xl text-[#dd8424]">
             <MdOutlineSchool />
           </div>
           <h4 className="text-5xl dark:text-white font-medium"> Experience </h4>
@@ -64,7 +64,7 @@ const ResumeCard = () => {
       <div>
         {/* <!-- award content --> */}
         <div className="flex items-center space-x-2 mb-4">
-          <div className="text-6xl text-[#F95054]">
+          <div className="text-6xl text-[#dd8424]">
             <FaAward />
           </div>
           <h4 className="text-5xl dark:text-white font-medium"> Awards </h4>
