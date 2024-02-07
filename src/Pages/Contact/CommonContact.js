@@ -61,6 +61,9 @@ const CommonContact = ({ condition }) => {
         <span className="font-semibold dark:text-white">
           Software Development work or partnerships.
         </span>
+        <p className="font-bold text-red-600">
+          WIP -- Currently working on fixing this...
+        </p>
       </h3>
 
       {/* Form Start */}
@@ -113,10 +116,11 @@ const CommonContact = ({ condition }) => {
           </label>
         </div>
 
-        <div className="transition-all duration-300  ease-in-out inline-block hover:bg-gradient-to-r from-[#FA5252] to-[#DD2476] rounded-lg  mt-3">
+        <div className="disabled transition-all duration-300  ease-in-out inline-block hover:bg-gradient-to-r from-[#ffb16d] to-[#dd8424] rounded-lg  mt-3">
           <input
+            disabled
             type="submit"
-            className=" transition ease-in duration-200 font-semibold cursor-pointer border-color-910   hover:border-transparent px-6  py-2 rounded-lg border-[2px]  hover:text-white   dark:text-white "
+            className="opacity-50 disabled transition ease-in duration-200 font-semibold cursor-not-allowed border-color-910   hover:border-transparent px-6  py-2 rounded-lg border-[2px]  hover:text-white   dark:text-white"
             value="Submit"
           />
         </div>
