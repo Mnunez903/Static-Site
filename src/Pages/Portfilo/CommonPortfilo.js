@@ -95,7 +95,7 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "UI/UX" ? "text-[#d97409]" : "fillter-btn"
+                    test === "Consultant" ? "text-[#d97409]" : "fillter-btn"
                   }  `}
                   onClick={() => handleSearch("Consultant")}
                 >

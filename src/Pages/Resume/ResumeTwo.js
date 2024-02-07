@@ -48,6 +48,8 @@ const ResumeTwo = () => {
                 {/* Knowledges items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
+                  <button className="resume-btn">Agile</button>
+                  <button className="resume-btn">Extreme Programming</button>
                   <button className="resume-btn">Ruby</button>
                   <button className="resume-btn">Rails</button>
                   <button className="resume-btn">Javascript</button>

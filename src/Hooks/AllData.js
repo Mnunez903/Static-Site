@@ -235,7 +235,7 @@ const AllData = () => {
       link: "https://stride.build",
       linkText: "www.stride.build",
       description:
-        "As a Hiring Manager, I Led a multifaceted interview process, collaborating with HR on candidate evaluations, and Client Principals in optimizing candidate-client matches. As a mentor, I Created the Mentorship program, managing goal-oriented development plans for consultants. I also co-founded and hosted “The Rabbit Hole – The Definitive Developers Podcast” focusing on weeklydiscussions of Agile software developer-related topics.",
+        "As a Hiring Manager, I Led a multifaceted interview process, collaborating with HR on candidate evaluations, and Client Principals in optimizing candidate-client matches. As a consultant manager, I managed a diverse team of consultants, crafting and implementing goal-oriented development plans to facilitate career progression and align with organizational objectives. As a mentor, I Created the Mentorship program, managing goal-oriented development plans for consultants. I also co-founded and hosted “The Rabbit Hole – The Definitive Developers Podcast” focusing on weeklydiscussions of Agile software developer-related topics.",
       projectType: 'Internal Consultant & Manager',
       isReal: true,
     },
@@ -316,20 +316,6 @@ const AllData = () => {
     },
     {
       id: "12",
-      tag: "Logo",
-      title: "Chul urina",
-      img: work12,
-      imgSmall: workSmall12,
-      bg: "#f0f1e3",
-      client: "Feepik",
-      langages: "Figma",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
-      description:
-        "12",
-    },
-    {
-      id: "13",
       tag: "Full-stack Development",
       title: "Assurance -- Serverless and AWS",
       img: work13,
