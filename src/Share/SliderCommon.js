@@ -15,7 +15,7 @@ const SliderCommon = () => {
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 2000,
     cssEase: "linear",
     responsive: [
       {

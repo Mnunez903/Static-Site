@@ -71,35 +71,35 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Video" ? "text-[#d97409]" : "fillter-btn"
+                    test === "Full-stack Development" ? "text-[#d97409]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
+                  onClick={() => handleSearch("Full-stack Development")}
                 >
-                  Video
+                  Full-stack
                 </li>
                 <li
                   className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Front-end Development" ? "text-[#d97409]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
+                  onClick={() => handleSearch("Front-end Development")}
                 >
-                  Web Design
+                  Front-end
                 </li>
                 <li
                   className={`${
-                    test === "Logo" ? "text-[#d97409]" : "fillter-btn ml-0"
+                    test === "Back-end Development" ? "text-[#d97409]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
+                  onClick={() => handleSearch("Back-end Development")}
                 >
-                  Logo
+                  Back-end
                 </li>
                 <li
                   className={`${
                     test === "UI/UX" ? "text-[#d97409]" : "fillter-btn"
                   }  `}
-                  onClick={() => handleSearch("UI/UX")}
+                  onClick={() => handleSearch("Consultant")}
                 >
-                  Graphic Design
+                  Consultant
                 </li>
               </ul>
 
@@ -160,7 +160,7 @@ const CommonPortfilo = ({ condition, items }) => {
                     onClick={() => setIsOpen(false)}
                     className="text-7xl cursor-pointer  absolute right-2 -top-12 md:-right-10 md:-top-6 z-50  text-white transition transform hover:rotate-45 duration-300 ease-in-out "
                   />
-                  <h2 className="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
+                  <h2 className="text-[#ffb16d] dark:hover:text-[#d97409] text-4xl text-center font-bold">
                     {singleData.tag} Project
                   </h2>
                   <div className="grid grid-cols-1 lg:grid-cols-2 my-6">
@@ -168,7 +168,7 @@ const CommonPortfilo = ({ condition, items }) => {
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
                         Project :&nbsp;{" "}
-                        <span className="font-medium "> Website</span>
+                        <span className="font-medium "> {singleData.projectType ? `${singleData.projectType}` : "Website" }</span>
                       </p>
                       <p className="dark:text-white flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />
@@ -186,10 +186,10 @@ const CommonPortfilo = ({ condition, items }) => {
                           {singleData?.client}
                         </span>
                       </p>
-                      <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
+                      {singleData.isReal &&                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                         <FiExternalLink className="text-lg mr-2 hidden sm:block" />
                         Preview :&nbsp;
-                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
+                        <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ffb16d] ">
                           <a
                             href={singleData?.link}
                             target="_blank"
@@ -199,6 +199,7 @@ const CommonPortfilo = ({ condition, items }) => {
                           </a>
                         </span>
                       </p>
+}
                     </div>
                   </div>
                   <p className="dark:text-white  text-2line font-normal text-[15px] sm:text-sm  ">

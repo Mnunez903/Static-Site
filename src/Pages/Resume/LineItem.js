@@ -11,7 +11,7 @@ const LineItem = ({item}) => {
             {item?.name}
           </span>
           <span className=" text-base font-semibold text-gray-lite pr-5 dark:text-[#A6A6A6]">
-            {item?.number}%
+            {item?.year} Years
           </span>
         </div>
 

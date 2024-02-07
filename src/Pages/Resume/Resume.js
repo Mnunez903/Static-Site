@@ -32,22 +32,14 @@ const Resume = () => {
             <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-6">
-                  Soft Skills
+                  Working Skills
                 </h4>
-                <div className="flex gap-x-3 gap-y-3 md:gap-y-6 md:gap-x-4 flex-wrap">
-                  <button className="resume-btn">Agile</button>
-                  <button className="resume-btn">Extreme Programming</button>
-                  <button className="resume-btn">Pair Programming</button>
-                  <button className="resume-btn">Test Driven Development</button>
-                  <button className="resume-btn">Continous Improvement</button>
-                  <button className="resume-btn">Continuous Delivery</button>
-                </div>
 
                 {/* experience percent items */}
 
-                {/* {lineArray.map((item, i) => (
+                {lineArray.map((item, i) => (
                   <LineItem item={item} key={i} />
-                ))} */}
+                ))}
               </div>
               <div className="col-span-1">
                 <h4 className="text-5xl dark:text-white font-medium mb-8">
@@ -64,6 +56,7 @@ const Resume = () => {
                   <button className="resume-btn">NodeJS</button>
                   <button className="resume-btn">ReactJS</button>
                   <button className="resume-btn">Java</button>
+
                 </div>
               </div>
             </div>

@@ -179,10 +179,11 @@ const AllData = () => {
       linkText: "",
       description:
         "Facilitated the integration and enhancement of an acquired application at a biometric identification company, involving app setup, deployment, bilingual documentation translation, and the implementation of GitHub Actions and Terragrunt/Terraform for infrastructural code standardization. Also Managed over 20 individual microservices, while improving AWS IAM practices for Federal GovCloud applications, facilitating inter-application communication using Java & Kafka, and leading the team's transition from Circle CI to GitHub Actions for Continuous Improvement and Continuous Delivery (CI/CD)",
+      projectType: 'Application Developer'
     },
     {
       id: "3",
-      tag: "Full-Stack Development",
+      tag: "Full-stack Development",
       title: "Education Application",
       img: work3,
       imgSmall: workSmall3,
@@ -196,7 +197,7 @@ const AllData = () => {
     },
     {
       id: "4",
-      tag: "Full-Stack Development",
+      tag: "Full-stack Development",
       title: "Online Programming-Learning Application",
       img: work4,
       imgSmall: workSmall4,
@@ -210,7 +211,7 @@ const AllData = () => {
     },
     {
       id: "5",
-      tag: "UI/UX",
+      tag: "Full-stack Development",
       title: "Food Delivery",
       img: work5,
       imgSmall: workSmall5,
@@ -224,7 +225,7 @@ const AllData = () => {
     },
     {
       id: "6",
-      tag: "Video",
+      tag: "Consultant",
       title: "Consultant Management",
       img: work6,
       imgSmall: workSmall6,
@@ -235,10 +236,12 @@ const AllData = () => {
       linkText: "www.stride.build",
       description:
         "As a Hiring Manager, I Led a multifaceted interview process, collaborating with HR on candidate evaluations, and Client Principals in optimizing candidate-client matches. As a mentor, I Created the Mentorship program, managing goal-oriented development plans for consultants. I also co-founded and hosted “The Rabbit Hole – The Definitive Developers Podcast” focusing on weeklydiscussions of Agile software developer-related topics.",
+      projectType: 'Internal Consultant & Manager',
+      isReal: true,
     },
     {
       id: "7",
-      tag: "UI/UX",
+      tag: "Full-stack Development",
       title: "Advertising",
       img: work7,
       imgSmall: workSmall7,
@@ -252,7 +255,7 @@ const AllData = () => {
     },
     {
       id: "8",
-      tag: "Web Design",
+      tag: "Consultant",
       title: "Energy/Utility",
       img: work8,
       imgSmall: workSmall8,
@@ -266,21 +269,23 @@ const AllData = () => {
     },
     {
       id: "9",
-      tag: "Logo",
+      tag: "Back-end Development",
       title: "Finance",
       img: work9,
       imgSmall: workSmall9,
       bg: "#f6f6f6",
-      client: "GlobalTrust Wealth Management",
+      client: "UBS Investment Bank",
       langages: "Java",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
+      link: "https://www.ubs.com/global/en/investment-bank.html",
+      linkText: "www.ubs.com",
       description:
         "Led the translation of an in-house FX pricing application contract from Python to Java, implemented new FX product pricing, and developed a JMS application processing over 10,000 messages daily, enhancing revenue generation and operational efficiency. Also ensured compliance with the Dodd-Frank Act by formatting XML messages to FpML standards, improved code quality and performance using TestNG, and generated comprehensive weekly project reports using tools like Microsoft Excel, Word, VisualVM, and JConsole.",
+      projectType: 'Application Developer',
+      isReal: true,
     },
     {
       id: "10",
-      tag: "Logo",
+      tag: "Full-stack Development",
       title: "Publishing",
       img: work10,
       imgSmall: workSmall10,
@@ -291,10 +296,11 @@ const AllData = () => {
       linkText: "www.simonandschuster.com",
       description:
         "Maintained and updated the Major Publishing Company's website front end using Rails, handling weekly deployments, issue resolution from customer feedback, and day-to-day emergencies, all within an Agile framework.",
+      isReal: true,
     },
     {
       id: "11",
-      tag: "Logo",
+      tag: "Back-end Development",
       title: "DevOps -- with Rails",
       img: work11,
       imgSmall: workSmall11,
@@ -305,6 +311,8 @@ const AllData = () => {
       linkText: "www.nytimes.com",
       description:
         "Enhanced a web application for provisioning and bootstrapping cloud resources at the New York Times across various providers using Rails, ensured code quality through consultations and optimal unit testing for continuous integration and delivery",
+      projectType: 'Application Developer',
+      isReal: true,
     },
     {
       id: "12",
@@ -322,7 +330,7 @@ const AllData = () => {
     },
     {
       id: "13",
-      tag: "Logo",
+      tag: "Full-stack Development",
       title: "Assurance -- Serverless and AWS",
       img: work13,
       imgSmall: workSmall13,
@@ -638,26 +646,23 @@ const AllData = () => {
     {
       id: "01",
       color: "#FF6464",
-      name: "Web Design",
-      number: "80",
+      name: "Extreme Programming",
+      number: "90",
+      year: '11'
     },
     {
       id: "02",
       color: "#9272D4",
-      name: "Mobile App ",
-      number: "95",
+      name: "Back-End Experience",
+      number: "70",
+      year: '7'
     },
     {
       id: "03",
       color: "#5185D4",
-      name: "Illustrator",
-      number: "65",
-    },
-    {
-      id: "03",
-      color: "#CA56F2",
-      name: "Photoshope",
-      number: "75",
+      name: "Front-End Experience",
+      number: "80",
+      year: '8'
     },
   ];
 
