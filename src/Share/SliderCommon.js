@@ -12,10 +12,10 @@ const SliderCommon = () => {
     infinite: true,
     slidesToShow: 5,
     arrows: false,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 2000,
+    speed: 3000,
+    autoplaySpeed: 6000,
     cssEase: "linear",
     responsive: [
       {
