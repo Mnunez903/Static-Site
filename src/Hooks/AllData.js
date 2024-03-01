@@ -11,7 +11,6 @@ import work8 from "../assets/images/work_images/8.jpg";
 import work9 from "../assets/images/work_images/9.jpg";
 import work10 from "../assets/images/work_images/10.jpg";
 import work11 from "../assets/images/work_images/11.jpg";
-import work12 from "../assets/images/work_images/12.jpg";
 import work13 from "../assets/images/work_images/13.jpg";
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.jpg";
@@ -25,7 +24,6 @@ import workSmall8 from "../assets/images/work_images/small/8.jpg";
 import workSmall9 from "../assets/images/work_images/small/9.jpg";
 import workSmall10 from "../assets/images/work_images/small/10.jpg";
 import workSmall11 from "../assets/images/work_images/small/11.jpg";
-import workSmall12 from "../assets/images/work_images/small/12.jpg";
 import workSmall13 from "../assets/images/work_images/small/13.jpg";
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
@@ -66,7 +64,7 @@ import iconPhone from "../assets/images/contact/phone-call 1.png";
 import iconEmail from "../assets/images/contact/email 1.png";
 import iconMap from "../assets/images/contact/map 1.png";
 import { CgNotes } from "react-icons/cg";
-import { FaBlogger, FaRegUser } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { FiCodesandbox } from "react-icons/fi";
 import { RiContactsBookLine } from "react-icons/ri";

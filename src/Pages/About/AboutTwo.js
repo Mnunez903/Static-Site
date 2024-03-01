@@ -9,8 +9,6 @@ import PageTitle from "../../Share/PageTitle";
 
 const AboutTwo = () => {
   const { local, serviceArray } = UseData();
-  const aboutMe1 = 'Born and raised in the Bronx, New York, I have over 13 years in software development and information technology experience.'
-  const aboutMe2 = 'Extensive experience across various domains including fashion, publishing, biometric identification, and education software. \n Committed to empowering software development teams with Agile best practices and mastering additional programming languages and frameworks for future projects.'
 
   return (
     <section>

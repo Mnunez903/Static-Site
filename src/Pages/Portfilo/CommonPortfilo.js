@@ -28,7 +28,7 @@ const CommonPortfilo = ({ condition, items }) => {
   useEffect(() => {
     setTest("All");
     handleData("All");
-  }, []);
+  }, [handleData]);
   const handleModle = (id) => {
     handleModelData(id);
   };

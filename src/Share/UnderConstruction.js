@@ -1,5 +1,5 @@
 import { Navigate } from 'react-router-dom'
-import underConstruction from '../assets/images/under-construction.png' 
+// import underConstruction from '../assets/images/under-construction.png' 
 
 const UnderConstruction = () => {
 return (
