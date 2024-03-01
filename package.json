@@ -2,7 +2,6 @@
   "name": "bobby-project",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://mnunez903.github.io/Static-Site",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.16.4",
