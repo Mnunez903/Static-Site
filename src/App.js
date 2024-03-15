@@ -1,7 +1,9 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+// import { BrowserRouter, Route, Routes, HashRouter } from "react-router-dom";
+import {Route, Routes, HashRouter } from "react-router-dom";
+
 import { ToastContainer } from "react-toastify";
 import ContextProvider from "./Context/ContextProvider";
 import About from "./Pages/About/About";
@@ -29,7 +31,7 @@ function App() {
   return (
     <>
       <ContextProvider>
-        <BrowserRouter>
+        <HashRouter>
           <Routes>
             <Route path="/" element={<UnderConstruction />} />
             <Route path="/home" element={<Home />}>
@@ -51,7 +53,7 @@ function App() {
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
-        </BrowserRouter>
+        </HashRouter>
       </ContextProvider>
 
       <ToastContainer
