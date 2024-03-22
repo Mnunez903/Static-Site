@@ -15,6 +15,7 @@ const CommonContact = ({ condition }) => {
     // const {value: message} = form.current[2]
     console.log(process.env.HELLO_WORLD, ' is env vars')
     console.log(process.env.HELLO_SECRET, ' is from env secrets')
+    console.log(process.env.NODE_ENV, ' is the node environment')
     emailjs
       .sendForm(
         "service_n4mkhz9",
