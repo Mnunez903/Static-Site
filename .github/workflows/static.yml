@@ -37,7 +37,11 @@ jobs:
           node-version: 20
           cache: 'npm'
       - run: npm ci
-      - run: npm run build --if-present
+      - name: Building with Env Vars Present
+        run: npm run build --if-present
+        env: 
+          REACT_APP_HELLO_SECRET: ${{secrets.REACT_APP_HELLO_SECRET}}
+          REACT_APP_HELLO_WORLD: ${{env.REACT_APP_HELLO_WORLD}}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact
