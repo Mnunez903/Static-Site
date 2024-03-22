@@ -10,6 +10,11 @@ const CommonContact = ({ condition }) => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    // const {value: name} = form.current[0]
+    // const {value: email} = form.current[1]
+    // const {value: message} = form.current[2]
+    console.log(process.env.HELLO_WORLD, ' is env vars')
+    console.log(process.env.HELLO_SECRET, ' is from env secrets')
     emailjs
       .sendForm(
         "service_n4mkhz9",
@@ -118,7 +123,6 @@ const CommonContact = ({ condition }) => {
 
         <div className="disabled transition-all duration-300  ease-in-out inline-block hover:bg-gradient-to-r from-[#ffb16d] to-[#dd8424] rounded-lg  mt-3">
           <input
-            disabled
             type="submit"
             className="opacity-50 disabled transition ease-in duration-200 font-semibold cursor-not-allowed border-color-910   hover:border-transparent px-6  py-2 rounded-lg border-[2px]  hover:text-white   dark:text-white"
             value="Submit"
