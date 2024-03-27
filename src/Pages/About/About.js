@@ -43,14 +43,15 @@ const About = () => {
                   {/* About me information */}
                   <div className=" md:mr-12 xl:mr-16">
                     <h3 className="text-4xl font-medium dark:text-white mb-2.5 ">
-                      Who am i?
+                      Who am I?
                     </h3>
                     <p className="text-gray-lite  dark:text-color-910 leading-7">
-                      Born and raised in the Bronx, New York, I have over 13 years in software development and information technology experience.
+                      I am a native New Yorker with over 13 years in software development and information technology experience,
+                      specializing in leading development teams to success through Agile methodologies and a commitment to continuous learning.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5 dark:text-color-910">
-                      Extensive experience across various domains including fashion, publishing, biometric identification, and education software. 
-                      Committed to empowering software development teams with Agile best practices and mastering additional programming languages and frameworks for future projects.
+                      Proven track record in fostering team growth and leading significant projects to drive innovation and excellence in software development. Passionate about promoting diversity in tech and volunteering to expand access to technology careers in underrepresented communities.
+                      Seeking new opportunities to leverage extensive technical expertise and leadership skills in a dynamic environment.
                     </p>
                   </div>
 
