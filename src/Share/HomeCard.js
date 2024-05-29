@@ -1,5 +1,5 @@
 import React from "react";
-import cvFile from "../assets/files/mn-resume-2024.pdf";
+import cvFile from "../assets/files/mn-resume-em-2024.pdf";
 import {
   FaCalendarAlt,
   FaEnvelopeOpenText,
@@ -28,7 +28,7 @@ const HomeCard = () => {
             Michael Julio Nuñez
           </h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block dark:bg-[#1D1D1D] px-5 py-1.5 rounded-lg dark:text-[#A6A6A6]  ">
-            Lead Software Developer
+            Lead Software Engineering Manager
           </h3>
 
           {/* Social Links */}

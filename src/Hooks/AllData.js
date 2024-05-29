@@ -445,31 +445,31 @@ const AllData = () => {
     {
       id: "01",
       name: "About",
-      link: "/homeTwo/about",
+      link: "/em/about",
       icon: <FaRegUser />,
     },
     {
       id: "02",
       name: "Resume",
-      link: "/homeTwo/resume",
+      link: "/em/resume",
       icon: <CgNotes />,
     },
     {
       id: "03",
       name: "Works",
-      link: "/homeTwo/works",
+      link: "/em/works",
       icon: <FiCodesandbox />,
     },
     // {
     //   id: "04",
     //   name: "Blogs",
-    //   link: "/homeTwo/blogs",
+    //   link: "/em/blogs",
     //   icon: <FaBlogger />,
     // },
     {
       id: "05",
       name: "Contact",
-      link: "/homeTwo/contact",
+      link: "/em/contact",
       icon: <RiContactsBookLine />,
     },
   ];
