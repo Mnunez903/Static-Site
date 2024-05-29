@@ -1,0 +1,8 @@
+{
+  "Template": {
+    "TemplateName": "ContactFormFromIO",
+    "SubjectPart": "{{name}} has filled out the form!",
+    "TextPart": "Here's the text from the email {{email}} from their message. Leave it in textPart cause I don't want any form injections: {{message}}",
+    "HtmlPart": "Mike! someone is reaching out!! \n\n gogogo check it out!! \n\n\n ```{{message}}```"
+  }
+}

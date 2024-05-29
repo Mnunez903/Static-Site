@@ -21,7 +21,7 @@ const Contact = () => {
               </h2>
               <div className="lg:flex gap-x-20">
                 <div className="w-full lg:w-[40%] xl:w-[30%] space-y-6">
-                  {/* Contact Infomation */}
+                  {/* Contact Information */}
 
                   {contactArray.map((item, i) => (
                     <div
